@@ -1,4 +1,10 @@
-@import "./one";
+@import './one';
+
+.one {
+    button {
+        @include basicBtn(aqua);
+    }
+}
 
 .two {
   h1 {
@@ -6,16 +12,9 @@
   }
 
   button {
-    padding: 10px 30px;
-    border: none;
-    background-color: aquamarine;
+    @include basicBtn(green);
 
-    &:hover {
-      background-color: antiquewhite;
 
-      &::after {
-        content: " =>";
-      }
-    }
+    
   }
 }

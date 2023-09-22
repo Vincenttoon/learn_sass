@@ -1,13 +1,10 @@
-.one h1 {
-  font-weight: lighter;
-}
 .one button {
   padding: 10px 30px;
   border: none;
-  background-color: aquamarine;
+  background-color: aqua;
 }
 .one button:hover {
-  background-color: antiquewhite;
+  background-color: orangered;
 }
 .one button:hover::after {
   content: " =>";
@@ -19,10 +16,10 @@
 .two button {
   padding: 10px 30px;
   border: none;
-  background-color: aquamarine;
+  background-color: green;
 }
 .two button:hover {
-  background-color: antiquewhite;
+  background-color: orangered;
 }
 .two button:hover::after {
   content: " =>";
