@@ -1,26 +1,16 @@
-.one button {
-  padding: 10px 30px;
+.btn, .btn-rounded {
+  padding: 30px 40px;
   border: none;
-  background-color: aqua;
+  background-color: aquamarine;
 }
-.one button:hover {
-  background-color: orangered;
+.btn:hover, .btn-rounded:hover {
+  background-color: orange;
 }
-.one button:hover::after {
+.btn:hover::after, .btn-rounded:hover::after {
   content: " =>";
 }
 
-.two h1 {
-  font-weight: lighter;
-}
-.two button {
-  padding: 10px 30px;
-  border: none;
-  background-color: green;
-}
-.two button:hover {
-  background-color: orangered;
-}
-.two button:hover::after {
-  content: " =>";
+.btn-rounded {
+  border-radius: 10px;
+  background-color: purple;
 }/*# sourceMappingURL=index.css.map */

@@ -1,20 +1,21 @@
-@import './one';
+$basicPadding: 10px;
 
-.one {
-    button {
-        @include basicBtn(aqua);
+.btn {
+  padding: ($basicPadding +20) 40px;
+  border: none;
+  background-color: aquamarine;
+
+  &:hover {
+    background-color: orange;
+
+    &::after {
+      content: " =>";
     }
+  }
 }
 
-.two {
-  h1 {
-    font-weight: lighter;
-  }
-
-  button {
-    @include basicBtn(green);
-
-
-    
-  }
+.btn-rounded {
+  @extend .btn;
+  border-radius: 10px;
+  background-color: purple;
 }
