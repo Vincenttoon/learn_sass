@@ -1,0 +1,21 @@
+@import "./one";
+
+.two {
+  h1 {
+    font-weight: lighter;
+  }
+
+  button {
+    padding: 10px 30px;
+    border: none;
+    background-color: aquamarine;
+
+    &:hover {
+      background-color: antiquewhite;
+
+      &::after {
+        content: " =>";
+      }
+    }
+  }
+}

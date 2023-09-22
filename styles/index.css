@@ -1,0 +1,29 @@
+.one h1 {
+  font-weight: lighter;
+}
+.one button {
+  padding: 10px 30px;
+  border: none;
+  background-color: aquamarine;
+}
+.one button:hover {
+  background-color: antiquewhite;
+}
+.one button:hover::after {
+  content: " =>";
+}
+
+.two h1 {
+  font-weight: lighter;
+}
+.two button {
+  padding: 10px 30px;
+  border: none;
+  background-color: aquamarine;
+}
+.two button:hover {
+  background-color: antiquewhite;
+}
+.two button:hover::after {
+  content: " =>";
+}/*# sourceMappingURL=index.css.map */
