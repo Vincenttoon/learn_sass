@@ -1,4 +1,5 @@
 @import "colors";
+@import "media-queries";
 
 %align-center {
   display: flex;
@@ -25,6 +26,14 @@
 
   &__bars {
     opacity: 0;
-    
+
+    @include tablet {
+      color: $dark;
+      opacity: 1;
+      position: absolute;
+      top: 22px;
+      right: 20px;
+      font-size: 1rem;
+    }
   }
 }
