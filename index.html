@@ -1,25 +1,53 @@
 <!DOCTYPE <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
 
-        <link rel="stylesheet" href="./styles/index.css">
-
-        <title>Sass Awesomeness</title>
-    </head>
-    <body>
-        <div class="one">
-            <h1>Hello 1</h1>
-            <button class="btn">One</button>
+    <title>Sass Awesomeness</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar">
+      <a href="navbar_logo">SASS</a>
+      <div class="navbar__bar">
+        <i class="fas fa-bars"></i>
+        <div class="navbar__menu">
+          <a href="/" class="navbar__menu--links">Home</a>
+          <a href="/" class="navbar__menu--links">Products</a>
+          <a href="/" class="navbar__menu--links">Services</a>
+          <a href="/" class="navbar__menu--links" id="button">Sign Up</a>
         </div>
+      </div>
+    </nav>
 
-        <div class="two">
-            <h1>Hello 2</h1>
-            <button class="btn-rounded">Two</button>
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="hero__container">
+        <div class="hero__container--left">
+          <h1>They are coming</h1>
+          <h2>Be Prepared</h2>
+          <p>Sign up now to join the list</p>
+          <button class="hero__container--btn">
+            <a href="#">Sign Up</a>
+          </button>
         </div>
-        
-        <script src="" async defer></script>
-    </body>
+        <div class="hero__containerer--right">
+          <div class="img hero__container--img">
+            <img
+              src="images/img-2.svg"
+              alt="alien-ufo"
+              class="hero__container--img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
